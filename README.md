@@ -3,13 +3,15 @@ Groupe de projet
 
 Groupe-5 :  Ndeye Penda Mbaye  , Mame Abdoulaye Dia et Amie Diouf  Master1 SIR
 
-Application pour la gestion de menu de restaurant
+
 
 App name
 :
 MenuBi
 
 App description
+
+Application pour la gestion de menu de restaurant
 
 Idea Proposal
 
