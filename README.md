@@ -13,6 +13,9 @@ App description
 
 Application pour la gestion de menu de restaurant
 
+![IMG-20191215-WA0002](https://user-images.githubusercontent.com/49824139/70945810-dd901780-204d-11ea-96d4-515f50727e25.jpg)
+
+
 Idea Proposal
 
 (including the testing of the idea, the persona etc.)
