@@ -5,6 +5,7 @@ Application pour la gestion de menu de restaurant
 
 App name
 MenuBi
+
 App description
 
 Idea Proposal
