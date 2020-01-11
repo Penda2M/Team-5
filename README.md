@@ -1,9 +1,6 @@
 # Team-5
-Groupe de projet 
 
-Groupe-5 :  Ndeye Penda Mbaye  , Mame Abdoulaye Dia et Amie Diouf  Master1 SIR
-
-
+Ndeye Penda Mbaye, Mame Abdoulaye Dia et Amie Diouf, Master1 SIR
 
 App name
 :
