@@ -8,7 +8,7 @@ MenuBi
 
 App description
 
-Application pour la gestion de menu de restaurant
+Application pour la gestion de menu de restaurant permet au gérant d'une restaurant de pouvoir gérer ses commandes, lister le repas les plus vendus, lister les ventes hebdomadiare, mensuelles et annuelles
 
 ![IMG-20191215-WA0002](https://user-images.githubusercontent.com/49824139/70945810-dd901780-204d-11ea-96d4-515f50727e25.jpg)
 
