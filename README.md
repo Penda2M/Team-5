@@ -8,9 +8,9 @@ Ndeye Penda Mbaye, Mame Abdoulaye Dia et Amie Diouf, Master1 SIR
 
 MenuBi permet au gérant d'une restaurant de pouvoir gérer les commandes, lister le repas les plus vendus, lister les ventes hebdomadaires, mensuelles et annuelles
 
-![IMG-20191215-WA0002](https://user-images.githubusercontent.com/49824139/70945810-dd901780-204d-11ea-96d4-515f50727e25.jpg)
-
 # Idée
+
+![IMG-20191215-WA0002](https://user-images.githubusercontent.com/49824139/70945810-dd901780-204d-11ea-96d4-515f50727e25.jpg)
 
 # Calendar
 
