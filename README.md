@@ -1,12 +1,19 @@
 # Team-5
 
-# MenuBi
+# Menu Bi
 
-Ndeye Penda Mbaye, Mame Abdoulaye Dia et Amie Diouf, Master1 SIR
+Mame Abdoulaye Dia
+Amie Diouf
+Ndeye Penda Mbaye Master1 SIR
 
 # Description
 
-MenuBi permet au gérant d'une restaurant de pouvoir gérer les commandes, lister le repas les plus vendus, lister les ventes hebdomadaires, mensuelles et annuelles
+Menu Bi est une application mobile qui a pour objectif de permettre au gérant d'un restaurant de : 
+  - Gérer les commandes des clients ,
+  - Améliorer les conditions de restauration du client
+  - Redéfinir la gestion de restaurant
+  - Lister le ou les repas les plus vendus,
+  - Lister les ventes hebdomadaires, mensuelles voire annuelles 
 
 # Idée
 
