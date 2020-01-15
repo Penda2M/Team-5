@@ -15,6 +15,10 @@ Menu Bi est une application mobile qui a pour objectif de permettre au gérant d
   - Lister le ou les repas les plus vendus,
   - Lister les ventes hebdomadaires, mensuelles voire annuelles 
 
+Aux clients de l'application de :
+- Avoir un espace plus large 
+- Etre libre de décider quand passer sa commande sans etre précipité
+- Pouvoir noter le restaurant par rapport aux plats de meme que par rapport à la qualité du  service 
 # Idée
 
 ![IMG-20191215-WA0002](https://user-images.githubusercontent.com/49824139/70945810-dd901780-204d-11ea-96d4-515f50727e25.jpg)
@@ -26,7 +30,8 @@ Menu Bi est une application mobile qui a pour objectif de permettre au gérant d
 Le product backlog est ici : https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK-ZOggjI5uBqdKJUpit-m5gIo9dFKkrFA/edit?ts=5df38714#gid=8
 
 # Architecture & Design
-
+La
+La
 # Contenu
 
 # Sprint 1
