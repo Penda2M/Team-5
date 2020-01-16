@@ -36,6 +36,7 @@ La
 ![IMG-20200115-WA0103](https://user-images.githubusercontent.com/49824139/72530884-3b3f9b80-3868-11ea-9a25-252e4db01fe5.jpg)
 ![IMG-20200116-WA0008](https://user-images.githubusercontent.com/49824139/72531007-7f32a080-3868-11ea-9ed9-c1f4ffc4e3f3.jpg)
 
+![IMG-20200116-WA0009](https://user-images.githubusercontent.com/49824139/72531291-14ce3000-3869-11ea-94db-c021006918dd.jpg)
 La
 # Contenu
 
