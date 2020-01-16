@@ -33,6 +33,8 @@ Le product backlog est ici : https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK
 La
 ![IMG-20200115-WA0104](https://user-images.githubusercontent.com/49824139/72530284-f830f880-3866-11ea-80a7-86e7fe33e15b.jpg)
 
+![IMG-20200115-WA0103](https://user-images.githubusercontent.com/49824139/72530884-3b3f9b80-3868-11ea-9a25-252e4db01fe5.jpg)
+
 La
 # Contenu
 
