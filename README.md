@@ -31,6 +31,8 @@ Le product backlog est ici : https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK
 
 # Architecture & Design
 La
+![IMG-20200115-WA0104](https://user-images.githubusercontent.com/49824139/72530284-f830f880-3866-11ea-80a7-86e7fe33e15b.jpg)
+
 La
 # Contenu
 
