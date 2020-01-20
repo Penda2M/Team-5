@@ -28,6 +28,9 @@ Ainsi administrer et gérer son restaurant de meme que passer sa commande aussi 
 
 # Calendar
 
+Sprint 1 du 20 janvier au 27 janvier
+Sprint 2 du 27 janvier au 3 février
+Sprint 3 du 3 février au 10 février
 # Product Backlog
 
 Le product backlog est ici : https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK-ZOggjI5uBqdKJUpit-m5gIo9dFKkrFA/edit?ts=5df38714#gid=8
