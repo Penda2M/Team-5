@@ -27,9 +27,10 @@ Ainsi administrer et gérer son restaurant de meme que passer sa commande aussi 
 ![IMG-20191215-WA0002](https://user-images.githubusercontent.com/49824139/70945810-dd901780-204d-11ea-96d4-515f50727e25.jpg)
 
 # Calendar
-
 Sprint 1 du 20 janvier au 27 janvier
+
 Sprint 2 du 27 janvier au 3 février
+
 Sprint 3 du 3 février au 10 février
 # Product Backlog
 
