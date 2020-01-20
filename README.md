@@ -60,26 +60,9 @@ Vidéo
 
 Apk
 * Spring retrospective
+https://github.com/Penda2M/Team-5/blob/master/Sprint%201-Retrospective
 
-Sprint Goals : 
 
-US implantées : 
-
-Nombre de US implantées versus planifiées 
-
-Quels sont les problèmes rencontrés par l'équipe?
-
-Qu'est ce que l'équipe a bien fait?
-
-Qu'est ce que l'équipe devrait améliorer?
-
-Qu'est ce que l'équipe devrait améliorer?
-
-Qualité et évolution du product backlog
-
-Burndown chart : 
-
-Statictics de GitHub : 
 
 # Sprint 2
 
