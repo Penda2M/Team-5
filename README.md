@@ -37,11 +37,9 @@ Sprint 3 du 3 février au 10 février
 Le product backlog est ici : https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK-ZOggjI5uBqdKJUpit-m5gIo9dFKkrFA/edit?ts=5df38714#gid=8
 
 # Architecture & Design
-La
-![IMG-20200115-WA0104](https://user-images.githubusercontent.com/49824139/72530284-f830f880-3866-11ea-80a7-86e7fe33e15b.jpg)
 
-![IMG-20200115-WA0103](https://user-images.githubusercontent.com/49824139/72530884-3b3f9b80-3868-11ea-9a25-252e4db01fe5.jpg)
-![IMG-20200116-WA0008](https://user-images.githubusercontent.com/49824139/72531007-7f32a080-3868-11ea-9ed9-c1f4ffc4e3f3.jpg)
+https://github.com/Penda2M/Team-5/blob/master/Architecture%20et%20Design
+
 
 ![IMG-20200116-WA0009](https://user-images.githubusercontent.com/49824139/72531291-14ce3000-3869-11ea-94db-c021006918dd.jpg)
 La
@@ -60,8 +58,8 @@ Vidéo
 
 Apk
 * Spring retrospective
-https://github.com/Penda2M/Team-5/blob/master/Sprint%201-Retrospective
 
+https://github.com/Penda2M/Team-5/blob/master/Sprint%201-Retrospective
 
 
 # Sprint 2
