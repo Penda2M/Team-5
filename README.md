@@ -18,10 +18,10 @@ Aux gérant d'un restaurant de :
 
 Aux clients de l'application de :
 - Avoir un espace plus large 
-- Etre libre de décider quand passer sa commande sans etre précipité
-- Pouvoir noter le restaurant par rapport aux plats de meme que par rapport à la qualité du  service 
+- Etre libre de décider quand passer sa commande sans être précipité
+- Pouvoir noter le restaurant par rapport aux plats de même que par rapport à la qualité du  service 
 
-Ainsi administrer et gérer son restaurant de meme que passer sa commande aussi en toute liberté sans précipitation  n'aurait jamais été aussi facile et amusant.
+Ainsi administrer et gérer son restaurant de même que passer sa commande aussi en toute liberté sans précipitation  n'aurait jamais été aussi facile et amusant.
 # Idée
 
 ![IMG-20191215-WA0002](https://user-images.githubusercontent.com/49824139/70945810-dd901780-204d-11ea-96d4-515f50727e25.jpg)
@@ -50,15 +50,41 @@ La
 # Sprint 1
 
 * Sprint planning
+ Sprint goals : US 1 (Facilitation du service), 2 (arrêt de l'utilisation du papier), 3 (Gérant-Ajout), 4 (Gérant-Modification), 5 (Gérant-Suppression), 16 (Page d'aide)
+ 
 * Scrum
+En lidne sur Slack
+
 * Sprint demo - video and apk (or equivalent)
 * Spring retrospective
+
+Sprint Goals : 
+
+US implantées : 
+
+Nombre de US implantées versus planifiées 
+
+Quels sont les problèmes rencontrés par l'équipe?
+
+Qu'est ce que l'équipe a bien fait?
+
+Qu'est ce que l'équipe devrait améliorer?
+
+Qu'est ce que l'équipe devrait améliorer?
+
+Qualité et évolution du product backlog
+
+Burndown chart : 
+
+Statictics de GitHub : 
 
 # Sprint 2
 
 * Sprint planning
 * Scrum
 * Sprint demo - video and apk (or equivalent)
+Vidéo 
+Apk
 * Spring retrospective
 
 # Sprint 3
@@ -73,3 +99,7 @@ La
 # Poster
 
 # Tools
+GitHub
+Android Studio 
+Firebase
+Google Sheets
