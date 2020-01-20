@@ -1,4 +1,4 @@
-# Team-5
+# Equipe-5
 
 # Menu Bi
 
@@ -8,7 +8,8 @@ Ndeye Penda Mbaye Master1 SIR
 
 # Description
 
-Menu Bi est une application mobile qui a pour objectif de permettre au gérant d'un restaurant de : 
+Menu Bi comme son nom l'indique est une application mobile qui a pour objectif de permettre : 
+Aux gérant d'un restaurant de : 
   - Gérer les commandes des clients ,
   - Améliorer les conditions de restauration du client
   - Redéfinir la gestion de restaurant
@@ -19,6 +20,8 @@ Aux clients de l'application de :
 - Avoir un espace plus large 
 - Etre libre de décider quand passer sa commande sans etre précipité
 - Pouvoir noter le restaurant par rapport aux plats de meme que par rapport à la qualité du  service 
+
+Ainsi administrer et gérer son restaurant de meme que passer sa commande aussi en toute liberté sans précipitation  n'aurait jamais été aussi facile et amusant.
 # Idée
 
 ![IMG-20191215-WA0002](https://user-images.githubusercontent.com/49824139/70945810-dd901780-204d-11ea-96d4-515f50727e25.jpg)
