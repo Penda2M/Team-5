@@ -56,6 +56,9 @@ La
 En lidne sur Slack
 
 * Sprint demo - video and apk (or equivalent)
+Vidéo
+
+Apk
 * Spring retrospective
 
 Sprint Goals : 
