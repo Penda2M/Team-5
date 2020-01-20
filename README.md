@@ -103,3 +103,4 @@ GitHub
 Android Studio 
 Firebase
 Google Sheets
+Slack
