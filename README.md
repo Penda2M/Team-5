@@ -50,15 +50,16 @@ La
 # Sprint 1
 
 * Sprint planning
- Sprint goals : US 1 (Facilitation du service), 2 (arrêt de l'utilisation du papier), 3 (Gérant-Ajout), 4 (Gérant-Modification), 5 (Gérant-Suppression), 16 (Page d'aide)
+
+ Sprint goals : US 1 (Facilitation du service), 3 (Gérant-Ajout), 4 (Hérant-Modification), 5 (Gérant-suppression), 16 (Page d'aide)
  
 * Scrum
 En lidne sur Slack
 
 * Sprint demo - video and apk (or equivalent)
-Vidéo
+Vidéo   url de la vidéo
+Apk     apk
 
-Apk
 * Spring retrospective
 https://github.com/Penda2M/Team-5/blob/master/Sprint%201-Retrospective
 
