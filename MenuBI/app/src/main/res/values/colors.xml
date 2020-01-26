@@ -3,4 +3,6 @@
     <color name="colorPrimary">#880000</color>
     <color name="colorPrimaryDark">#880000</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="btnSignup">#39796b</color>
+    <color name="btnSignActive">#A9d440</color>
 </resources>

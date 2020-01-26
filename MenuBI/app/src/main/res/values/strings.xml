@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MenuBI</string>
+    <string name="menu">MenuBI</string>
+    <string name="slogan">Votre menu pour vous facilitez les commande</string>
 </resources>
