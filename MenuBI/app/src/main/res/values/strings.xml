@@ -2,4 +2,7 @@
     <string name="app_name">MenuBI</string>
     <string name="menu">MenuBI</string>
     <string name="slogan">Votre menu pour vous facilitez les commande</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -2,6 +2,10 @@
 <resources>
     <color name="colorPrimary">#880000</color>
     <color name="colorPrimaryDark">#880000</color>
+    <color name="PrimaryDark">#292b3d</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
     <color name="colorAccent">#D81B60</color>
     <color name="btnSignup">#39796b</color>
     <color name="btnSignActive">#A9d440</color>
