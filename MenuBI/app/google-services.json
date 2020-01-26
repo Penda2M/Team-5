@@ -44,6 +44,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "439499573448-9g9s2pmfi1memoicgjl54m1av1c7uiav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.menubi",
+            "certificate_hash": "278ceabedad04748db9de4f0c215516ba5a2202c"
+          }
+        },
+        {
           "client_id": "439499573448-s9cgjiiifu8v982jbir4oc313qoe7kr1.apps.googleusercontent.com",
           "client_type": 3
         }
