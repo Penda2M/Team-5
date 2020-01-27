@@ -74,12 +74,6 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
     </RelativeLayout>
     <LinearLayout
         android:layout_width="360dp"
@@ -100,10 +94,8 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="25dp">
-
-        <ImageView
-            >
+        android:paddingLeft="25dp"
+        >
 
     </LinearLayout>
 
@@ -124,16 +116,42 @@
         android:id="@+id/imageView3"
         android:layout_width="69dp"
         android:layout_height="59dp"
-        app:srcCompat="@drawable/ic_check_circle_black_24dp"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="471dp" />
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/ic_check_circle_black_24dp" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="64dp"
         android:layout_height="49dp"
-        app:srcCompat="@drawable/ic_keyboard_return_black_24dp"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="548dp" />
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="134dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/ic_keyboard_return_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="518dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
