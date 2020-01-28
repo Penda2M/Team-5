@@ -65,16 +65,22 @@ Apk     apk
 * Spring retrospective
 https://github.com/Penda2M/Team-5/blob/master/Sprint%201-Retrospective
 
-
+Image Statistic GitHub
+![Statistic_Github](https://user-images.githubusercontent.com/53229254/73164250-7902b680-40e9-11ea-8386-ac85374265fe.PNG)
 
 # Sprint 2
-
+ 
 * Sprint planning
+
+ Sprint goals: US 6 (Client - Accessibilité au menu), 7 ( Amélioration de l'espace Client) , 8 (Note de qualité du service), 9 (Notation des plats),  13 (Client - paiement), 14 (Boites de Dialogue)
+ 
 * Scrum
+En Ligne sur Slack
 * Sprint demo - video and apk (or equivalent)
 Vidéo 
 Apk
 * Spring retrospective
+https://github.com/Penda2M/Team-5/blob/master/Sprint-2%20Retrospective
 
 # Sprint 3
 
@@ -93,3 +99,4 @@ GitHub
 Android Studio 
 Firebase
 Google Sheets
+toggl
