@@ -37,13 +37,18 @@ Le product backlog est ici : https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK
 
 # Architecture & Design
 
-Interfaces client
+* Interfaces du client
+
+
 ![Nouveau document 2020-01-29 10 23 06_5](https://user-images.githubusercontent.com/49824139/73351514-147d5e00-4287-11ea-9a62-c838718f9dc6.jpg)
 ![Nouveau document 2020-01-29 10 23 06_4](https://user-images.githubusercontent.com/49824139/73351726-8bb2f200-4287-11ea-8de9-8b3d267266cf.jpg)
-![IMG-20200116-WA0008](https://user-images.githubusercontent.com/49824139/72531007-7f32a080-3868-11ea-9ed9-c1f4ffc4e3f3.jpg)
 
-![IMG-20200116-WA0009](https://user-images.githubusercontent.com/49824139/72531291-14ce3000-3869-11ea-94db-c021006918dd.jpg)
-La
+
+* Interfaces du Gerant
+![Nouveau document 2020-01-29 10 23 06_12](https://user-images.githubusercontent.com/49824139/73352061-37f4d880-4288-11ea-9acf-3b550a2613aa.jpg)
+![Nouveau document 2020-01-29 10 23 06_2](https://user-images.githubusercontent.com/49824139/73352072-3deab980-4288-11ea-9705-3530bfc0602a.jpg)
+
+
 # Contenu
 
 L'application Menu bi est une applicat pour la gestion de menus d'un restaurant. Elle aura principalement deux utilisateurs que sont le  clients du restaurant et l'administrateur ou le gérant du restaurant. Pour le gérant il aura la possibilité de personnaliser son menu à savoir ajouter, modifier ou encore supprimer. Ces trois actions se baseront sur l'appréciation que les clients font du menu qu'il propose. Le client quant à lui aura une large gamme de plats qui lui sont proposé dons il pourra lui meme personnaliser son menu ; chaque client crée son propre menu du jour en se basant sur les plats qui lui sont proposé en entrée, en dessert, en boissons (chaude ou fraiche) et en plat principal. Des plats nationaux comme internationaux  ainsi que tous les accompagnements
