@@ -24,8 +24,7 @@ Aux clients de l'application de :
 Ainsi administrer et gérer son restaurant de même que passer sa commande aussi en toute liberté sans précipitation  n'aurait jamais été aussi facile et amusant.
 # Idée
 
-
-![idee](https://user-images.githubusercontent.com/49824139/73349025-5526a880-4282-11ea-8282-ade1037cc698.jpg)
+![Nouveau document 2020-01-29 10 23 06_1](https://user-images.githubusercontent.com/49824139/73349998-20b3ec00-4284-11ea-8563-cfbd199bb66f.jpg)
 # Calendar
 Sprint 1 du 20 janvier au 27 janvier
 
