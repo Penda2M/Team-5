@@ -27,7 +27,8 @@ Aux clients de l'application de :
 Ainsi administrer et gérer son restaurant de même que passer sa commande aussi en toute liberté sans précipitation  n'aurait jamais été aussi facile et amusant.
 # Idée
 
-![Nouveau document 2020-01-29 10 23 06_1](https://user-images.githubusercontent.com/49824139/73349998-20b3ec00-4284-11ea-8563-cfbd199bb66f.jpg)
+<a href="https://github.com/Penda2M/Team-5/blob/master/Idea.md"> Idea</a>
+
 # Calendar
 Sprint 1 du 20 janvier au 27 janvier
 
@@ -37,19 +38,7 @@ Sprint 3 du 3 février au 10 février
 # Product Backlog
 <a href="https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK-ZOggjI5uBqdKJUpit-m5gIo9dFKkrFA/edit?ts=5df38714#gid=8"> Product Backlog</a>
 # Architecture & Design 
-* Interfaces du client
-
-
-![Nouveau document 2020-01-29 10 23 06_5](https://user-images.githubusercontent.com/49824139/73351514-147d5e00-4287-11ea-9a62-c838718f9dc6.jpg)
-![Nouveau document 2020-01-29 10 23 06_4](https://user-images.githubusercontent.com/49824139/73351726-8bb2f200-4287-11ea-8de9-8b3d267266cf.jpg)
-
-
-* Interfaces du Gerant
-
-
-![Nouveau document 2020-01-29 10 23 06_12](https://user-images.githubusercontent.com/49824139/73352061-37f4d880-4288-11ea-9acf-3b550a2613aa.jpg)
-![Nouveau document 2020-01-29 10 23 06_2](https://user-images.githubusercontent.com/49824139/73352072-3deab980-4288-11ea-9705-3530bfc0602a.jpg)
-
+<a href="https://github.com/Penda2M/Team-5/edit/master/Architecture_et_Design.md"> Architecture et Design</a>
 
 # Contenu
 
@@ -69,8 +58,6 @@ Apk     apk
 * Spring retrospective
 <a href="https://github.com/Penda2M/Team-5/edit/master/Sprint%201-Retrospective"> Sprint 1 Retrospective</a>
 
-Image Statistic GitHub
-![Statistic_Github](https://user-images.githubusercontent.com/53229254/73164250-7902b680-40e9-11ea-8386-ac85374265fe.PNG)
 
 # Sprint 2
  
