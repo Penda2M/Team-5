@@ -65,7 +65,7 @@ Vidéo   url de la vidéo
 Apk     apk
 
 * Spring retrospective
-https://github.com/Penda2M/Team-5/blob/master/Sprint%201-Retrospective
+<a href="https://github.com/Penda2M/Team-5/edit/master/Sprint%201-Retrospective"> Sprint 1 Retrospective</a>
 
 Image Statistic GitHub
 ![Statistic_Github](https://user-images.githubusercontent.com/53229254/73164250-7902b680-40e9-11ea-8386-ac85374265fe.PNG)
@@ -82,7 +82,7 @@ En Ligne sur Slack
 Vidéo 
 Apk
 * Spring retrospective
-https://github.com/Penda2M/Team-5/blob/master/Sprint-2%20Retrospective
+<a href="https://github.com/Penda2M/Team-5/blob/master/Sprint-2%20Retrospective">Sprint 2 Retrospective</a>
 
 # Sprint 3
 
