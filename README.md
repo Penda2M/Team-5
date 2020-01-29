@@ -53,11 +53,9 @@ L'application Menu bi est une applicat pour la gestion de menus d'un restaurant.
 
 * Sprint planning
 
- Sprint goals : US 1 (Facilitation du service), 3 (Gérant-Ajout), 4 (Hérant-Modification), 5 (Gérant-suppression), 16 (Page d'aide)
- 
+Objectifs du Sprint1 : US 1 (Facilitation du service), 3 (Gérant-Ajout), 4 (Gérant-Modification), 5 (Gérant-suppression), 16 (Page d'aide) 
 * Scrum
-En lidne sur Slack
-
+En ligne sur Slack
 * Sprint demo - video and apk (or equivalent)
 Vidéo   url de la vidéo
 Apk     apk
