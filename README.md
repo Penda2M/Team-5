@@ -36,11 +36,10 @@ Sprint 3 du 3 février au 10 février
 Le product backlog est ici : https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK-ZOggjI5uBqdKJUpit-m5gIo9dFKkrFA/edit?ts=5df38714#gid=8
 
 # Architecture & Design
-La
-Interface client
+
+Interfaces client
 ![Nouveau document 2020-01-29 10 23 06_5](https://user-images.githubusercontent.com/49824139/73351514-147d5e00-4287-11ea-9a62-c838718f9dc6.jpg)
-La
-![IMG-20200115-WA0103](https://user-images.githubusercontent.com/49824139/72530884-3b3f9b80-3868-11ea-9a25-252e4db01fe5.jpg)
+![Nouveau document 2020-01-29 10 23 06_4](https://user-images.githubusercontent.com/49824139/73351726-8bb2f200-4287-11ea-8de9-8b3d267266cf.jpg)
 ![IMG-20200116-WA0008](https://user-images.githubusercontent.com/49824139/72531007-7f32a080-3868-11ea-9ed9-c1f4ffc4e3f3.jpg)
 
 ![IMG-20200116-WA0009](https://user-images.githubusercontent.com/49824139/72531291-14ce3000-3869-11ea-94db-c021006918dd.jpg)
