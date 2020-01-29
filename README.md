@@ -45,6 +45,8 @@ Le product backlog est ici : https://docs.google.com/spreadsheets/d/1ORDrBpE6AaK
 
 
 * Interfaces du Gerant
+
+
 ![Nouveau document 2020-01-29 10 23 06_12](https://user-images.githubusercontent.com/49824139/73352061-37f4d880-4288-11ea-9acf-3b550a2613aa.jpg)
 ![Nouveau document 2020-01-29 10 23 06_2](https://user-images.githubusercontent.com/49824139/73352072-3deab980-4288-11ea-9705-3530bfc0602a.jpg)
 
