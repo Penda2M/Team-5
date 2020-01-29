@@ -2,9 +2,10 @@
 
 # Menu Bi
 
-Mame Abdoulaye Dia
-Amie Diouf
-Ndeye Penda Mbaye Master1 SIR
+Prénom(s) NOM -----------------|Contacts--------------------------------------|Role----------------------------|
+Mame Abdoulaye DIA --------------| mabdoulayedia@gmail.com    ------------------------| Developer, Team leader----------|
+Amie Diouf   ----------------------| dioufamielivemya@gmail.com  ---------------------|  Developer , Scrum master ------------|
+Ndeye Penda Mbaye ----------------|ndeyependa.mbaye@uadb.edu.sn ---------------------| Developer, Product owner -----------|
 
 # Description
 
