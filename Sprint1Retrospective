@@ -1,26 +1,37 @@
 
-# Sprint Retrospective
-Sprint Goals : 
+H2 Sprint Retrospective
+ h3 Sprint Goals : 
+US 1 (Facilitation du service), 3 (Gérant-Ajout), 4 (Gérant-Modification), 5 (Gérant-suppression), 16 (Page d'aide)
 
- Commencer à implémenter l'interface de l'administrateur et attaquer la base de données
-US implantées :  4 US ont été implémentées
+h3 US implantées :
 
-Nombre de US implantées versus planifiées 
-4/5
-Quels sont les problèmes rencontrés par l'équipe?
-Durant ce sprint 1 nous avons rencontré des problèmes au niveau technique surtout avec l'attaque de la base avec les requêtes d'insertion 
-Qu'est-ce que l'équipe a bien fait?
+US 1 (Facilitation du service), 3 (Gérant-Ajout), 4 (Gérant-Modification), 5 (Gérant-suppression), 16 (Page d'aide)
+
+h3 Nombre de US implantées versus planifiées 
+
+5/5
+
+h3 Quels sont les problèmes rencontrés par l'équipe?
+
+Durant ce sprint 1 nous avons rencontré des problèmes au niveau technique surtout avec l'attaque de la base avec les requêtes d'insertion.
+avec firebase, on a eu du mal a insérer des données dans la base. Avec GitHub lorsque l'un d'entre nous effectue un push au moment où un
+autre effectue un pull pour récupérer les dernières modifications, l’ensemble des travaux comités est perdu mais nous faisions une copie
+de chaque travail avant un push. 
+
+h3 Qu'est-ce que l'équipe a bien fait?
+
 Ce qu'on a bien fait c'était surtout le travail en équipe bien que le travail a été partagé mais on se faisait aider par l'autre en cas de besoin
-Toute fois  L'authentification  le formulaire de guide de l'utilisateur 
+et on faisait des rencontre pour voir l'état d'avancement. 
 
-Qu'est ce que l'équipe devrait améliorer?
+h3 Qu'est ce que l'équipe devrait améliorer?
 
-Le formulaire de guide, l'interface d'ajout et de modification des plats sont à parfaire
+Ce qu'il y a d'abord à améliorer c'est d'augmenter les meetings ; cela fait du bien, aussi nous familiariser avec android car c'est un monde vaste
 
-Qualité et évolution du product backlog
+h3 Qualité et évolution du product backlog
+
+Il n'a eu que de petits changements
 
 Burndown chart : 
 
 Statictics de GitHub : 
-
-![Statistic_Github](https://user-images.githubusercontent.com/53229254/73164250-7902b680-40e9-11ea-8386-ac85374265fe.PNG)
+<img src="![Statistic_Github](https://user-images.githubusercontent.com/53229254/73164250-7902b680-40e9-11ea-8386-ac85374265fe.PNG)">
