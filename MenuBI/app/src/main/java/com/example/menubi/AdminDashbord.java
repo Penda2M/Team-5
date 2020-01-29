@@ -25,7 +25,6 @@ public class AdminDashbord extends AppCompatActivity implements View.OnClickList
         btnSupprimer.setOnClickListener(this);
         btnModifier.setOnClickListener(this);
         btnLister.setOnClickListener(this);
-      ;
 
     }
 
@@ -34,7 +33,7 @@ public class AdminDashbord extends AppCompatActivity implements View.OnClickList
         Intent i;
 
         switch (v.getId()){
-            case R.id.btnAjout : i = new Intent(AdminDashbord.this,AjoutePlat.class); startActivity(i); break;
+            case R.id.btnAjout : i = new Intent(this,AjoutePlat.class); startActivity(i); break;
             case R.id.btnSupprimer : i = new Intent(this,SupprimerPlat.class); startActivity(i); break;
             case R.id.btnModifier : i = new Intent(this,ModifierPlat.class); startActivity(i); break;
             case R.id.btnLister : i = new Intent(this,ListePlat.class); startActivity(i); break;

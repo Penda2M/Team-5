@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,13 +41,16 @@ public class Signin extends AppCompatActivity {
                 table_user.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange( DataSnapshot dataSnapshot) {
-                        //Si l'utilisateur n'est pas dans base
+                       //Si l'utilisateur n'est pas dans base
                         if (dataSnapshot.child(edtPhone.getText().toString()).exists()){
                         pd.dismiss();
                         //imfos sur les utilisateur
                         User user = dataSnapshot.child(edtPhone.getText().toString()).getValue(User.class);
                         if (user.getPassword().equals(edtMdp.getText().toString())){
-                            Toast.makeText(Signin.this, "Vous etes Connecté", Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(Signin.this, "Vous etes Connecté", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(Signin.this,AdminDashbord.class);
+
+                            startActivity(intent);
                         }
                         else {
                             Toast.makeText(Signin.this, "Connection Echouer", Toast.LENGTH_SHORT).show();
@@ -57,6 +61,8 @@ public class Signin extends AppCompatActivity {
                             pd.dismiss();
                             Toast.makeText(Signin.this,"L'utilisateur n'existe pas",Toast.LENGTH_SHORT).show();
                         }
+
+
 
                     }
 
