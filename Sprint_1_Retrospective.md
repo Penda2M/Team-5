@@ -9,7 +9,7 @@ US 1 (Facilitation du service), 3 (Gérant-Ajout), 4 (Gérant-Modification), 5 (
 
 US 1 (Facilitation du service), 3 (Gérant-Ajout), 16 (Page d'aide)
 
-<## Nombre de US implantées versus planifiées 
+## Nombre de US implantées versus planifiées 
 
 3/5
 
