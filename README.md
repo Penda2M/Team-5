@@ -2,10 +2,10 @@
 
 # Menu Bi
 
-`` Prénom(s) NOM ----------------|Contacts--------------------------------------|Role----------------------------|`` ''
-`` Mame Abdoulaye DIA -----------| mabdoulayedia@gmail.com    ---------------------| Developer, Team leader---------|`` ''
-`` Amie Diouf   -------------------| dioufamielivemya@gmail.com  -------------------|  Developer , Scrum master -----|`` ''
-`` Ndeye Penda Mbaye ------------|ndeyependa.mbaye@uadb.edu.sn -----------------| Developer, Product owner ------|`` ''
+`` Prénom(s) NOM ----------------|Contacts--------------------------------------|Role----------------------------|`` 
+`` Mame Abdoulaye DIA -----------| mabdoulayedia@gmail.com    ---------------------| Developer, Team leader---------|`` 
+`` Amie Diouf   -------------------| dioufamielivemya@gmail.com  ------------------| Developer , Scrum master -------|`` 
+`` Ndeye Penda Mbaye ------------|ndeyependa.mbaye@uadb.edu.sn -----------------| Developer, Product owner ------|`` 
 
 ![IMG-20200129-WA0022](https://user-images.githubusercontent.com/49824139/73356907-47c5ea00-4293-11ea-9a87-cfa8862c3649.jpg)
 
@@ -54,12 +54,12 @@ Objectifs du Sprint1 : US 1 (Facilitation du service), 3 (Gérant-Ajout), 4 (Gé
 En ligne sur Slack
 
 * Sprint demo - video and apk (or equivalent)
-## <a href="https://youtu.be/NsU34ImnQb0"> Vidéo </a> 
+### <a href="https://youtu.be/NsU34ImnQb0"> Vidéo </a> 
 
-## <a href="https://github.com/Penda2M/Team-5/blob/master/MenuBI/menubi.apk"> Apk </a>
+### <a href="https://github.com/Penda2M/Team-5/blob/master/MenuBI/menubi.apk"> Apk </a>
      
 * Spring retrospective
-<a href="https://github.com/Penda2M/Team-5/edit/master/Sprint%201-Retrospective"> Sprint 1 Retrospective</a>
+<a href="https://github.com/Penda2M/Team-5/blob/master/Sprint_1_Retrospective.md"> Sprint 1 Retrospective</a>
 
 
 # Sprint 2
