@@ -53,7 +53,7 @@ Objectifs du Sprint1 : US 1 (Facilitation du service), 3 (Gérant-Ajout), 4 (Gé
 En ligne sur Slack
 * Sprint demo - video and apk (or equivalent)
 Vidéo   url de la vidéo
-Apk     apk
+Apk      https://github.com/Penda2M/Team-5/blob/master/MenuBI/menubi.apk
 
 * Spring retrospective
 <a href="https://github.com/Penda2M/Team-5/edit/master/Sprint%201-Retrospective"> Sprint 1 Retrospective</a>
