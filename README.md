@@ -3,10 +3,13 @@
 # Menu Bi
 
 
-`` Prénom(s) NOM ---------------|Contacts-------------------------------------|Role---------------------------|`` 
-`` Mame Abdoulaye Dia ----------| mabdoulayedia@gmail.com    --------------------| Developer, Team leader--------|`` 
-`` Amie Diouf   ------------------| dioufamielivemya@gmail.com  -----------------| Developer , Scrum master -----|`` 
-`` Ndeye Penda Mbaye -----------|ndeyependa.mbaye@uadb.edu.sn ----------------| Developer, Product owner -----|`` 
+`` Prénom(s) NOM ---------------|Contacts------------------------------------|Role-------------------------|``
+
+`` Mame Abdoulaye Dia ----------|mabdoulayedia@gmail.com    --------------------|Developer, Team leader-------|``
+
+`` Amie Diouf   ------------------|dioufamielivemya@gmail.com  -----------------|Developer , Scrum master ----|`` 
+
+`` Ndeye Penda Mbaye -----------|ndeyependa.mbaye@uadb.edu.sn ---------------|Developer, Product owner ----|`` 
 
 ![IMG-20200129-WA0022](https://user-images.githubusercontent.com/49824139/73356907-47c5ea00-4293-11ea-9a87-cfa8862c3649.jpg)
 
@@ -44,6 +47,7 @@ Sprint 3 du 3 février au 10 février
 # Contenu
 
 L'application Menu bi est une applicat pour la gestion de menus d'un restaurant. Elle aura principalement deux utilisateurs que sont le  clients du restaurant et l'administrateur ou le gérant du restaurant. Pour le gérant il aura la possibilité de personnaliser son menu à savoir ajouter, modifier ou encore supprimer. Ces trois actions se baseront sur l'appréciation que les clients font du menu qu'il propose. Le client quant à lui aura une large gamme de plats qui lui sont proposé dons il pourra lui meme personnaliser son menu ; chaque client crée son propre menu du jour en se basant sur les plats qui lui sont proposé en entrée, en dessert, en boissons (chaude ou fraiche) et en plat principal. Des plats nationaux comme internationaux  ainsi que tous les accompagnements
+
 
 # Sprint 1 
 
