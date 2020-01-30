@@ -49,10 +49,10 @@ public class Signin extends AppCompatActivity {
                         User user = dataSnapshot.child(edtPhone.getText().toString()).getValue(User.class);
                         if (user.getPassword().equals(edtMdp.getText().toString())){
                             //Toast.makeText(Signin.this, "Vous etes Connecté", Toast.LENGTH_SHORT).show();
-                            Intent ad = new Intent(Signin.this,Signup.class);
+                           /* Intent ad = new Intent(Signin.this,Signup.class);
                             Common.curentUser= user;
                             startActivity(ad);
-                            finish();
+                            finish();*/
                         }
                         else {
                             Toast.makeText(Signin.this, "Connection Echouer", Toast.LENGTH_SHORT).show();
