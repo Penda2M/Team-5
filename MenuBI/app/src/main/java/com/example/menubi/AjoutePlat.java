@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.menubi.modele.Plat;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class AjoutePlat extends AppCompatActivity {
     EditText nomPlat,descriptionPlat,prix;
@@ -24,6 +26,7 @@ public class AjoutePlat extends AppCompatActivity {
     Button btnValide;
 
     Plat plat;
+    DatabaseReference reff;
 
 
     public static final int IMAGE_PICK_CODE = 1000;
@@ -42,6 +45,8 @@ public class AjoutePlat extends AppCompatActivity {
         btnInputImage =(ImageButton) findViewById(R.id.btnInputImage);
         imageplat = (ImageView) findViewById(R.id.imageplat);
         btnValide = (Button) findViewById(R.id.btnValider);
+
+        reff = FirebaseDatabase.getInstance().getReference().child("Plat");
 
         //Listener Bouton input image
         btnInputImage.setOnClickListener(new View.OnClickListener() {
@@ -80,6 +85,9 @@ public class AjoutePlat extends AppCompatActivity {
                 plat.setNomPlat(nom);
                 plat.setDescription(desc);
                 plat.setPrix(pr);
+                reff.push().setValue(plat);
+
+                Toast.makeText(AjoutePlat.this,"Donnée inserer avec succes", Toast.LENGTH_LONG).show();
 
             }
         });
