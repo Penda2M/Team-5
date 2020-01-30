@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">MenuBI</string>
     <string name="menu">MenuBI</string>
-    <string name="slogan">Votre menu pour vous facilitez les commande</string>
+    <string name="slogan">Votre menu pour vous facilitez les commandes.Administrer et gérer son restaurant de même que passer sa commande aussi en toute liberté sans précipitation n\'aurait jamais été aussi facile et amusant
+    </string>
     <string name="title_activity_home">Home</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

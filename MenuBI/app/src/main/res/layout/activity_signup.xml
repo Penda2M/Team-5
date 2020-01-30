@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/food6"
+    android:background="@drawable/ba1"
     tools:context=".Signup">
     <LinearLayout
         android:orientation="vertical"
@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Reference de la table"
-            android:inputType="text|phone"
+            android:inputType="text"
             android:text="table1"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white"
