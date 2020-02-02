@@ -15,7 +15,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.menubi.modele.Plat;
+import com.example.menubi.Model.Plat;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -80,7 +80,7 @@ public class AjoutePlat extends AppCompatActivity {
 
                 String nom = nomPlat.getText().toString();
                 String desc = descriptionPlat.getText().toString();
-                int pr = Integer.parseInt(prix.getText().toString());
+                String pr = descriptionPlat.getText().toString();
 
                 plat.setNomPlat(nom);
                 plat.setDescription(desc);
