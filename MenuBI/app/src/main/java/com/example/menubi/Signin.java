@@ -50,14 +50,14 @@ public class Signin extends AppCompatActivity {
                         if (user.getPassword().equals(edtMdp.getText().toString())){
                             //Toast.makeText(Signin.this, "Vous etes Connecté", Toast.LENGTH_SHORT).show();
 
-                           /* Intent ad = new Intent(Signin.this,Signup.class);
+                           Intent ad = new Intent(Signin.this,Home.class);
                             Common.curentUser= user;
                             startActivity(ad);
-                            finish();*/
+                            finish();
 
-                            Intent intent = new Intent(Signin.this,AdminDashbord.class);
+                          /*  Intent intent = new Intent(Signin.this,AdminDashbord.class);
 
-                            startActivity(intent);
+                            startActivity(intent);*/
                         }
                         else {
                             Toast.makeText(Signin.this, "Connection Echouer", Toast.LENGTH_SHORT).show();
