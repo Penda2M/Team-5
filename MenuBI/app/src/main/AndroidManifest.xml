@@ -11,7 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PageGuide"></activity>
+        <activity
+            android:name=".ClientViewer"
+            android:label="@string/title_activity_client_viewer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ClientPay"
+            android:label="@string/title_activity_client_pay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PageGuide" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"

@@ -16,5 +16,14 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="title_activity_client_pay">ClientPay</string>
+
+    <string-array name="tables">
+        <item name="table1">Table 1</item>
+        <item name="table2">Table 2</item>
+        <item name="table3">Table 3</item>
+    </string-array>
+    <string name="title_activity_client_viewer">ClientViewer</string>
+
 
 </resources>
