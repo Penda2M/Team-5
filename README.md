@@ -74,6 +74,7 @@ En ligne sur Slack
 En Ligne sur Slack
 * Sprint demo - video and apk (or equivalent)
 Vidéo 
+https://youtu.be/WX8_N1Kk4us
 
 Apk
 
