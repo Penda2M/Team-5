@@ -9,5 +9,19 @@
     <color name="colorAccent">#D81B60</color>
     <color name="btnSignup">#39796B</color>
     <color name="btnSignActive">#A9d440</color>
+<<<<<<< HEAD
     <color name="background">#EEEDEF</color>
+=======
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="black_overlay">#7f333639</color>
+    <color name="overlay_ActionBar">#0e0d0e</color>
+    <color name="overlay_back">#66000000</color>
+>>>>>>> 67eff108b002f498d7825930a8419a503091aa9a
 </resources>

@@ -6,6 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,12 +16,20 @@ import android.widget.Toast;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+
 public class MainActivity extends AppCompatActivity {
     Button btnSignup, btnSignin;
     TextView txtSlogan;
+<<<<<<< HEAD
     private MainActivity myAct;
 
    /* Toolbar toolbar = findViewById(R.id.toolbar);
+=======
+/*
+    Toolbar toolbar = findViewById(R.id.toolbar);
+>>>>>>> 67eff108b002f498d7825930a8419a503091aa9a
     setSupportActionBar(toolbar);
 
     FloatingActionButton fab = findViewById(R.id.fab);

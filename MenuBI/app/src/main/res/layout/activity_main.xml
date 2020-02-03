@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/food6"
-    android:foreground="@color/common_google_signin_btn_text_dark_disabled"
+    android:background="@drawable/ba1"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,27 +16,30 @@
 
         <TextView
             android:id="@+id/txtmenubi"
-            android:layout_width="200dp"
+            android:layout_width="match_parent"
             android:layout_height="94dp"
             android:gravity="center"
             android:text="@string/menu"
-            android:textColor="#09520C"
-            android:textSize="45sp"
+            android:textColor="@color/btnSignup"
+            android:textSize="65sp"
             android:textStyle="bold|italic"
-            android:typeface="serif"
-            android:visibility="visible" />
+            android:typeface="monospace"
+            android:visibility="visible"
+            app:fontFamily="cursive" />
 
         <TextView
             android:id="@+id/txtSlogan"
-            android:layout_width="200dp"
+            android:layout_width="275dp"
             android:layout_height="wrap_content"
-
             android:gravity="center"
+            android:shadowColor="#00FFFFFF"
             android:text="@string/slogan"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"
+            android:textColor="#FFFEFE"
+            android:textSize="24sp"
             android:textStyle="italic"
-            android:typeface="monospace" />
+            android:typeface="monospace"
+            android:visibility="visible"
+            app:fontFamily="serif-monospace" />
     </LinearLayout>
 
     <LinearLayout
@@ -55,7 +58,7 @@
             android:backgroundTint="@color/btnSignup"
             android:text="S'inscrire"
             android:textColor="@android:color/white"
-            app:buttonColor="#4CAF50" />
+            android:visibility="visible" />
 
         <info.hoang8f.widget.FButton
             android:id="@+id/btnSignin"
@@ -63,8 +66,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:text="Connecter"
             android:backgroundTint="@color/colorPrimary"
+            android:text="Connecter"
             android:textColor="@android:color/white"
 
 

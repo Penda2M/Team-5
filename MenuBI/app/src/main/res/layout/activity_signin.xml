@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/food6"
+    android:background="@drawable/ba1"
     tools:context=".Signin">
     <LinearLayout
         android:orientation="vertical"
@@ -13,35 +13,46 @@
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reference de la table"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
 
+            />
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Reference de la table"
-            android:inputType="phone"
+            android:inputType="text"
             android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
             android:textSize="34sp"
             android:visibility="visible"
             app:met_baseColor="@android:color/white"
             app:met_floatingLabel="highlight"
-            app:met_maxCharacters="11"
+            app:met_maxCharacters="255"
             app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true" />
+        <TextView
+            android:id="@+id/tmdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mot de passe"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
 
+            />
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edtMdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mot de passe"
             android:inputType="textPassword"
             android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
             android:textSize="34sp"
             android:visibility="visible"
             app:met_baseColor="@android:color/white"
-            app:met_floatingLabel="highlight"
             app:met_maxCharacters="11"
             app:met_primaryColor="@android:color/white"
             app:met_singleLineEllipsis="true" /></LinearLayout>
