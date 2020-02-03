@@ -4,8 +4,11 @@
 
 
 `` Prénom(s) NOM ---------------|Contacts-------------------------------------|Role---------------------------|`` 
+
 `` Mame Abdoulaye Dia ----------| mabdoulayedia@gmail.com    --------------------| Developer, Team leader--------|`` 
+
 `` Amie Diouf   ------------------| dioufamielivemya@gmail.com  -----------------| Developer , Scrum master -----|`` 
+
 `` Ndeye Penda Mbaye -----------|ndeyependa.mbaye@uadb.edu.sn ----------------| Developer, Product owner -----|`` 
 
 ![IMG-20200129-WA0022](https://user-images.githubusercontent.com/49824139/73356907-47c5ea00-4293-11ea-9a87-cfa8862c3649.jpg)
@@ -74,8 +77,7 @@ En ligne sur Slack
 En Ligne sur Slack
 * Sprint demo - video and apk (or equivalent)
 
-Vidéo 
-<a href="https://youtu.be/WX8_N1Kk4us">Vidéo</a>
+### <a href="https://youtu.be/WX8_N1Kk4us">Vidéo</a>
 
 Apk
 
