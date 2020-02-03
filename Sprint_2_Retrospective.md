@@ -30,4 +30,4 @@
 Burndown chart : 
 
 ## Statictics de GitHub :
-<a href="https://github.com/Penda2M/Team-5/pulse"> Statistique GitHub</a>
+Statistique GitHub<img src="https://github.com/Penda2M/Team-5/blob/master/Statistic_Github_Sprint2.PNG"> 
