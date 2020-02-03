@@ -68,13 +68,14 @@ En ligne sur Slack
  
 * Sprint planning
 
- Sprint goals: US 6 (Client - Accessibilité au menu), 7 ( Amélioration de l'espace Client) , 8 (Note de qualité du service), 9 (Notation des plats),  13 (Client - paiement), 14 (Boites de Dialogue)
+ Sprint goals: US 6 (Client - Accessibilité au menu), 7 ( Amélioration de l'espace Client) , 8 (Note de qualité du service), 9 (Notation des plats),  11 (Evaluation du menu), 13 (Client - paiement), 14 (Boites de Dialogue)
  
 * Scrum
 En Ligne sur Slack
 * Sprint demo - video and apk (or equivalent)
+
 Vidéo 
-https://youtu.be/WX8_N1Kk4us
+<a href="https://youtu.be/WX8_N1Kk4us">Vidéo</a>
 
 Apk
 
