@@ -3,8 +3,7 @@
     package="com.example.menubi">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -13,18 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity
-            android:name=".ClientViewer"
-            android:label="@string/title_activity_client_viewer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".ClientPay"
-            android:label="@string/title_activity_client_pay"
-            android:theme="@style/AppTheme.NoActionBar" />
-=======
-        <activity android:name=".Test"></activity>
->>>>>>> 67eff108b002f498d7825930a8419a503091aa9a
+        <activity android:name=".Cart"></activity>
+        <activity android:name=".DetailsPlats" />
+        <activity android:name=".Test" />
         <activity android:name=".PageGuide" />
         <activity
             android:name=".Home"
@@ -32,13 +22,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Signup" />
         <activity android:name=".Signin" />
-        <activity android:name=".ModifierPlat"></activity>
+        <activity android:name=".ModifierPlat" />
         <activity android:name=".ListePlat" />
         <activity android:name=".SupprimerPlat" />
         <activity android:name=".AjoutePlat" />
         <activity android:name=".AdminDashbord" />
-
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

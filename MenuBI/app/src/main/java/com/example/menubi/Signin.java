@@ -47,6 +47,7 @@ public class Signin extends AppCompatActivity {
                         pd.dismiss();
                         //imfos sur les utilisateur
                         User user = dataSnapshot.child(edtPhone.getText().toString()).getValue(User.class);
+                       // user.setRefTable(edtPhone.getText().toString());
                         if (user.getPassword().equals(edtMdp.getText().toString())){
                             //Toast.makeText(Signin.this, "Vous etes Connecté", Toast.LENGTH_SHORT).show();
 
@@ -56,7 +57,7 @@ public class Signin extends AppCompatActivity {
                             finish();
 
                           /*  Intent intent = new Intent(Signin.this,AdminDashbord.class);
-
+        
                             startActivity(intent);*/
                         }
                         else {
