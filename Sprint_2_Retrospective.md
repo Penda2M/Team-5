@@ -32,4 +32,4 @@ Le backlog n'a pas changé on maintient celui d'origine ont a juste changé une 
 Burndown chart : 
 
 ## Statictics de GitHub :
-Statistique GitHub<img src="https://github.com/Penda2M/Team-5/blob/master/Statistic_Github_Sprint2.PNG"> 
+<a href="https://github.com/Penda2M/Team-5/pulse"> Statistique GitHub</a>
