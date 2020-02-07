@@ -20,4 +20,20 @@
     <color name="black_overlay">#7f333639</color>
     <color name="overlay_ActionBar">#0e0d0e</color>
     <color name="overlay_back">#66000000</color>
+
+<!--Color for user Guide-->
+    <!--Color for top style-->
+    <color name="color_primary">#ffffff</color>
+    <color name="color_primary_dark">#ffffff</color>
+    <color name="color_primary_accent">#ffffff</color>
+
+    <!--Color for bottom style -->
+    <color name="gradient_start_color">#4c04ff</color>
+    <color name="gradient_end_color">#10a3fe</color>
+
+    <!--Color for tab and text -->
+    <color name="gradient_tab_indicator">#c0c0c0</color>
+    <color name="letter_little">#000000</color>
+    <color name="letter_description">#656565</color>
+
 </resources>
