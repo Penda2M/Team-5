@@ -6,22 +6,34 @@ public class Plat {
     private String nomPlat;
     private String description;
     private String prix;
+    private String discount;
     private String image;
     private String menuId;
 
     public Plat() {
     }
 
-    public Plat(String nomPlat, String description, String prix, String image, String menuId) {
+
+
+    public String getNomPlat() {
+        return nomPlat;
+    }
+
+    public Plat(String nomPlat, String description, String prix, String discount, String image, String menuId) {
         this.nomPlat = nomPlat;
         this.description = description;
         this.prix = prix;
+        this.discount = discount;
         this.image = image;
         this.menuId = menuId;
     }
 
-    public String getNomPlat() {
-        return nomPlat;
+    public String getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(String discount) {
+        this.discount = discount;
     }
 
     public void setNomPlat(String nomPlat) {
