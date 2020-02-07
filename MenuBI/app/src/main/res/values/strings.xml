@@ -17,5 +17,18 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
-
+    <string name="Formpaiement">Formulaire de paiement</string>
+    <string name="enter_number">Entrer votre numéro</string>
+    <string name="somme">Entrer la somme</string>
+    <string name="select_table">selectionner une table</string>
+    <string name="paiement">Paiement</string>
+    <string name="especes">Especes</string>
+    <string name="autres">Autres</string>
+    <string name="submit_form_pay">Valider</string>
+    <string name="next">Suivant</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="txt">Texte</string>
 </resources>

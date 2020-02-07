@@ -19,7 +19,7 @@
             android:layout_height="43dp"
             android:textSize="25sp"
             android:textColor="#ffffff"
-            android:text="Formulaire de paiement"
+            android:text="@string/Formpaiement"
             android:textStyle="bold"
             />
     </LinearLayout>
@@ -35,7 +35,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Entrer votre numéro"
+            android:hint="@string/enter_number"
             android:ems="10"
             android:inputType="number"
             android:textSize="22sp"
@@ -55,7 +55,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Entrer la somme"
+            android:hint="@string/somme"
             android:ems="10"
             android:inputType="number"
             android:textSize="22sp"
@@ -92,20 +92,21 @@
         android:layout_height="43dp"
         android:textSize="25sp"
         android:textColor="@color/graylight"
-        android:text="Selectionner une table"
+        android:text="@string/select_table"
 
         />
 
 
     <Spinner
         android:id="@+id/spiner"
-        android:layout_width="70dp"
+        android:layout_width="0dp"
         android:layout_weight="4"
         android:visibility="visible"
-        android:touchscreenBlocksFocus="true"
         android:layout_height="70dp"
         android:clickable="true"
-        />
+        android:focusable="true"/>
+        <!--   android:touchscreenBlocksFocus="true"-->
+
     </LinearLayout>
 
     <RadioGroup
@@ -120,20 +121,20 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textColor="#ffffff"
-            android:text="Paiement :"
+            android:text="@string/paiement"
             android:textStyle="bold"
             />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Espèces"
+            android:text="@string/especes"
             android:textSize="20sp"
             android:textStyle="bold"
             />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Transfert"
+            android:text="@string/autres"
             android:textSize="20sp"
             android:textStyle="bold"/>
 
@@ -143,7 +144,7 @@
         android:id="@+id/payer"
         android:layout_height="60dp"
         android:layout_width="match_parent"
-        android:text="Valider"
+        android:text="@string/submit_form_pay"
         android:textColor="#FFFFFF"
         android:textSize="32sp"
         android:background="@drawable/button_rounded"
