@@ -30,4 +30,5 @@
     <string name="number2">2</string>
     <string name="number3">3</string>
     <string name="number4">4</string>
+    <string name="txt">Texte</string>
 </resources>
