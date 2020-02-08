@@ -31,4 +31,12 @@
     <string name="number3">3</string>
     <string name="number4">4</string>
     <string name="txt">Texte</string>
+
+    <string-array name="categorie">
+        <item>Entrées</item>
+        <item>desserts</item>
+        <item>Plats de resistance</item>
+        <item>Boisson</item>
+    </string-array>
+
 </resources>
