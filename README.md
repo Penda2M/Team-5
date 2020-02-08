@@ -88,9 +88,20 @@ En Ligne sur Slack
 # Sprint 3
 
 * Sprint planning
+
+Sprint goals: US 10(Gérant-amélioration), 12 ( Gérant-Inventaire) , 15 (Adaptabilité du menu), 17 (Durée de la commande)
+
 * Scrum
+En ligne sur Slack
+
 * Sprint demo - video and apk (or equivalent)
+
+Vidéo
+Apk
+
 * Spring retrospective
+
+<a href="https://github.com/Penda2M/Team-5/blob/master/Sprint_3_Retrospective.md">Sprint 3 Retrospective</a>
 
 # Final presentation
 
