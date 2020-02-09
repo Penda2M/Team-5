@@ -20,7 +20,7 @@ public class IntroActivity extends AppCompatActivity {
 
         List<ScreenItem> mList = new ArrayList<>();
         mList.add(new ScreenItem("Menu du restaurant", " Cette page Contient l'ensemble des variétés que nous proposons dans notre menu ",R.drawable.food));
-        mList.add(new ScreenItem("Entrées", "Dans cette page vous avez les plats que nous proposons en entréesqu'elles soient chaudes ou froides",R.drawable.menuStart));
+        mList.add(new ScreenItem("Entrées", "Dans cette page vous avez les plats que nous proposons en entréesqu'elles soient chaudes ou froides",R.drawable.menustart));
         mList.add(new ScreenItem("Espace de paiement", "Vous pairez facilment votre commande via les syst_mes de transfert existant",R.drawable.payment));
         mList.add(new ScreenItem("Espace d'appréciation", "Dans cette page vous allez nous aidé à pouvoir améliorer notre ualité de service et les plats que nous proposons",R.drawable.note));
 

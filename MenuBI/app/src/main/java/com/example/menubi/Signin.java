@@ -51,10 +51,18 @@ public class Signin extends AppCompatActivity {
                         if (user.getPassword().equals(edtMdp.getText().toString())){
                             //Toast.makeText(Signin.this, "Vous etes Connecté", Toast.LENGTH_SHORT).show();
 
-                           Intent ad = new Intent(Signin.this,Home.class);
-                            Common.curentUser= user;
-                            startActivity(ad);
-                            finish();
+                            if (edtPhone.getText().toString().equals("admin")){
+                                Intent ad = new Intent(Signin.this,AdminDashbord.class);
+                                Common.curentUser= user;
+                                startActivity(ad);
+                                finish();
+                            }
+                            else {
+                                Intent ads = new Intent(Signin.this,Home.class);
+                                Common.curentUser= user;
+                                startActivity(ads);
+                                finish();
+                            }
 
                           /*  Intent intent = new Intent(Signin.this,AdminDashbord.class);
         
