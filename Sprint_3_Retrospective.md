@@ -8,18 +8,18 @@
  
 ## US implantées :
 
-  US 10(Gérant-amélioration), 15 (Adaptabilité du menu), 17 (Durée de la commande)
+  US 10(Gérant-amélioration), 15 (Adaptabilité du menu)
 
 <## Nombre de US implantées versus planifiées 
 
-3/4
+2/4
 
 ## Quels sont les problèmes rencontrés par l'équipe?
 
  A part les problèmes que nous avons rencontrés ont été au niveau de l'exportation de notre code vers notre repositorie gitHub (les push) nous nous sommes un peu plus débrouillés avec le sprint 3
  
 ## Qu'est-ce que l'équipe a bien fait?
-Le travail d'équipe et la communication entre co-équipiers ont été les clé de notre travail.Les users Stories 10, 15, 17 sont achevées. La User storie 12 n'a pas pu etre achevée car nous avions besoins de ressources supplémentaires pour sa perfection ; on donc jugé nécessaire d'attendre peut etre d'ici la présentation finale.
+Le travail d'équipe et la communication entre co-équipiers ont été les clé de notre travail.Les users Stories 10, 15, 17 sont achevées. Les Users Stories 12 et 17 n'a pas pu etre achevée car nous avions besoins de ressources supplémentaires pour sa perfection ; on donc jugé nécessaire d'attendre peut etre d'ici la présentation finale.
 
 ## Qu'est ce que l'équipe devrait améliorer?
 La user storie 12 est en développement , il faudrait donc essayer de la terminer d'ici la présentation finale de sorte à trouver toute les resspurces nécessairrre à son achèvement.
