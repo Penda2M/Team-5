@@ -10,7 +10,7 @@
 
   US 10(Gérant-amélioration), 15 (Adaptabilité du menu)
 
-<## Nombre de US implantées versus planifiées 
+## Nombre de US implantées versus planifiées 
 
 2/4
 
