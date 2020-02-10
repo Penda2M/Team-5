@@ -97,7 +97,8 @@ En ligne sur Slack
 * Sprint demo - video and apk (or equivalent)
 
 Vidéo
-Apk
+
+ <a href="https://github.com/Penda2M/Team-5/blob/master/MenuBI/menubi.apk"> Apk </a> 
 
 * Spring retrospective
 
