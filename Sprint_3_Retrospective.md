@@ -8,22 +8,21 @@
  
 ## US implantées :
 
-  (),  (),  ()
+  US 10(Gérant-amélioration), 15 (Adaptabilité du menu)
 
-<## Nombre de US implantées versus planifiées 
+## Nombre de US implantées versus planifiées 
 
-/4
+2/4
 
 ## Quels sont les problèmes rencontrés par l'équipe?
 
- Les problèmes majeurs que nous avons rencontrés ont été au niveau du code à cause d'un push tout a été perdu, de l'accès à la base en terme d'insertion surtout et du push des codes qui modifie en permanence le fichier maifest de l'application
+ A part les problèmes que nous avons rencontrés ont été au niveau de l'exportation de notre code vers notre repositorie gitHub (les push) nous nous sommes un peu plus débrouillés avec le sprint 3
  
 ## Qu'est-ce que l'équipe a bien fait?
-Les user Stories 9 11 13 et 14 sont achevés il faudrait juste peut etre réviser 
+Le travail d'équipe et la communication entre co-équipiers ont été les clé de notre travail.Les users Stories 10, 15, 17 sont achevées. Les Users Stories 12 et 17 n'a pas pu etre achevée car nous avions besoins de ressources supplémentaires pour sa perfection ; on donc jugé nécessaire d'attendre peut etre d'ici la présentation finale.
 
 ## Qu'est ce que l'équipe devrait améliorer?
-Les users stories 6 et 7 et 8 sont en développement , il faudrait essayer de les terminer et améliorer ce qui a déjà été fait
-On devrait essayer de faire come le premier sprint organiser des meetings pour assurer u gain de temps et etre plus performent
+La user storie 12 est en développement , il faudrait donc essayer de la terminer d'ici la présentation finale de sorte à trouver toute les resspurces nécessairrre à son achèvement.
 
 ## Qualité et évolution du product backlog
 Le backlog n'a pas changé on maintient celui d'origine ont a juste changé une user storie qu'on devait implémenté par rapport au sprint 2 par une autre
@@ -31,4 +30,5 @@ Le backlog n'a pas changé on maintient celui d'origine ont a juste changé une 
 Burndown chart : 
 
 ## Statictics de GitHub :
-<a href="https://github.com/Penda2M/Team-5/pulse"> Statistique GitHub</a>
+ Statistique GitHub
+<img src="https://github.com/Penda2M/Team-5/blob/master/Statistic_GitHub_Sp3.PNG"> 
