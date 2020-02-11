@@ -48,14 +48,26 @@ public class Home extends AppCompatActivity implements  NavigationView.OnNavigat
         bd = FirebaseDatabase.getInstance();
         categorie= bd.getReference("Categorie");
 
+        //bouton panier pour commande global
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent cartInten = new Intent(Home.this, Cart.class);
-                startActivity(cartInten);
+                Intent cartInten1 = new Intent(Home.this, Cart.class);
+                startActivity(cartInten1);
             }
         });
+
+        //bouton guide
+        FloatingActionButton guide = findViewById(R.id.guide);
+        guide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent cartInten2 = new Intent(Home.this, IntroActivity.class);
+                startActivity(cartInten2);
+            }
+        });
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         //navigationView.setNavigationItemSelectedListener(this);
@@ -117,11 +129,11 @@ public class Home extends AppCompatActivity implements  NavigationView.OnNavigat
 
         DrawerLayout dr = (DrawerLayout)findViewById(R.id.drawer_layout);
         int id = item.getItemId();
-       if (id == R.id.action_help){
+      /* if (id == R.id.action_help){
             Intent intentO = new Intent(Home.this, IntroActivity.class);
             startActivity(intentO);
        }
-        else if (id == R.id.nav_logOut){
+        else*/ if (id == R.id.nav_logOut){
             Intent intentO = new Intent(Home.this, Signin.class);
             startActivity(intentO);
         }

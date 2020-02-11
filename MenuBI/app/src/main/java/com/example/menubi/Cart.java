@@ -35,7 +35,7 @@ public class Cart extends AppCompatActivity {
     List<Order> cart = new ArrayList<>();
     CartAdapter adapter;
 
-
+    String total;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +67,8 @@ public class Cart extends AppCompatActivity {
 
                // invocation de la classe clientPay  finish();
                 Intent intCart = new Intent(Cart.this,ClientPay.class);
+                intCart.putExtra("total",txtTotal.getText().toString());
+                intCart.putExtra("refTable",Common.curentUser.getRefTable());
                 startActivity(intCart);
             }
         });
@@ -80,7 +82,7 @@ public class Cart extends AppCompatActivity {
         int total =0;
         for (Order order:cart){
             total+= (Integer.parseInt(order.getPrix()))*(Integer.parseInt(order.getQuantite()));
-            Locale locale = new Locale("en","US");
+            Locale locale = new Locale("fr","FR");
             NumberFormat fmt = NumberFormat.getCurrencyInstance(locale);
             txtTotal.setText(fmt.format(total));
         }
