@@ -16,7 +16,6 @@
         <activity android:name=".Cart" />
         <activity android:name=".DetailsPlats" />
         <activity android:name=".Test" />
-        <activity android:name=".PageGuide" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
@@ -28,6 +27,8 @@
         <activity android:name=".SupprimerPlat" />
         <activity android:name=".AjoutePlat" />
         <activity android:name=".AdminDashbord" />
+        <activity android:name=".IntroActivity" />
+        <activity android:name=".ClientPay" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

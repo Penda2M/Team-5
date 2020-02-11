@@ -64,9 +64,10 @@ public class Cart extends AppCompatActivity {
                 requests.child(String.valueOf(System.currentTimeMillis())).setValue(request);
                 new Database(getBaseContext()).cleanCart();
                 Toast.makeText(Cart.this,"Merci pour la commande",Toast.LENGTH_SHORT).show();
-                finish();
-                /*Intent intCart = new Intent(Cart.this,ClientPay.class);
-                startActivity(intCart);*/
+                 finish();
+               // invocation de la classe clientPay
+                Intent intCart = new Intent(Cart.this,ClientPay.class);
+                startActivity(intCart);
             }
         });
     }
