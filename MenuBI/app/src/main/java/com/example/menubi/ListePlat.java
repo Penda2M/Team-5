@@ -63,12 +63,12 @@ public class ListePlat extends AppCompatActivity {
                         {
                             db.addFavorit(adapter.getRef(i).getKey());
                             foodViewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
-                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+" Ajouté au favorit",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+" Ajouté aux favoris",Toast.LENGTH_SHORT).show();
                         }
                         else {
                             db.removeFromFavorit( adapter.getRef(i).getKey());
                             foodViewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
-                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+" removed From favorite",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+" retités des favoris",Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

@@ -115,17 +115,16 @@ public class Home extends AppCompatActivity implements  NavigationView.OnNavigat
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
+        DrawerLayout dr = (DrawerLayout)findViewById(R.id.drawer_layout);
         int id = item.getItemId();
-        if(id == R.id.nav_menu){}
-        else if (id == R.id.nav_cart){
-            Intent intentC = new Intent(Home.this, Cart.class);
-            startActivity(intentC);
-        }
-        else if (id == R.id.nav_orders){
-            Intent intentO = new Intent(Home.this, OrderStatus.class);
+       if (id == R.id.action_help){
+            Intent intentO = new Intent(Home.this, IntroActivity.class);
+            startActivity(intentO);
+       }
+        else if (id == R.id.nav_logOut){
+            Intent intentO = new Intent(Home.this, Signin.class);
             startActivity(intentO);
         }
-        DrawerLayout dr = (DrawerLayout)findViewById(R.id.drawer_layout);
         dr.closeDrawer(GravityCompat.START);
         return true;
     }
