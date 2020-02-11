@@ -6,6 +6,7 @@ public class Request {
     private String RefTable;
     private String profil;
     private String total;
+    private String status;
     private List<Order> foods;
 
     public Request() {
@@ -16,6 +17,23 @@ public class Request {
         this.profil = profil;
         this.total = total;
         this.foods = foods;
+        this.status = "0";
+    }
+
+    public String getProfil() {
+        return profil;
+    }
+
+    public void setProfil(String profil) {
+        this.profil = profil;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getRefTable() {
