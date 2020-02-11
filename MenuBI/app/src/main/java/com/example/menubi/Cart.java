@@ -35,7 +35,7 @@ public class Cart extends AppCompatActivity {
     List<Order> cart = new ArrayList<>();
     CartAdapter adapter;
 
-    String total;
+    String total, refTable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
