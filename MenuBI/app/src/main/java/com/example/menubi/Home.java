@@ -2,39 +2,33 @@ package com.example.menubi;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.menubi.Common.Common;
 import com.example.menubi.Interface.ItemClickListener;
 import com.example.menubi.Model.Categorie;
+import com.example.menubi.Service.ListenOrder;
 import com.example.menubi.ViewHolder.MenuViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import android.view.View;
-
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
-import androidx.drawerlayout.widget.DrawerLayout;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.view.Menu;
-import android.widget.TextView;
-import android.widget.Toast;
-
-public class Home extends AppCompatActivity {
+public class Home extends AppCompatActivity implements  NavigationView.OnNavigationItemSelectedListener{
 
     private AppBarConfiguration mAppBarConfiguration;
     FirebaseDatabase bd;
@@ -58,8 +52,8 @@ public class Home extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent cartInten = new Intent(Home.this, Cart.class);
+                startActivity(cartInten);
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -84,10 +78,12 @@ public class Home extends AppCompatActivity {
         layoutManager= new LinearLayoutManager(this);
         reciMenu.setLayoutManager(layoutManager);
         loadMenu();
+        Intent service = new Intent(Home.this, ListenOrder.class);
+        startService(service);
     }
 
     private void loadMenu() {
-        adapter = new FirebaseRecyclerAdapter<Categorie, MenuViewHolder>(Categorie.class,R.layout.menu_item,MenuViewHolder.class,categorie) {
+        adapter = new FirebaseRecyclerAdapter<Categorie, MenuViewHolder>(Categorie.class, R.layout.menu_item, MenuViewHolder.class,categorie) {
             @Override
             protected void populateViewHolder(MenuViewHolder menuViewHolder, Categorie categorie, int i) {
                 menuViewHolder.txtMenuName.setText(categorie.getName());
@@ -97,7 +93,7 @@ public class Home extends AppCompatActivity {
                     @Override
                     public void onClick(View view, int position, boolean islongClick) {
                         //recup Categori et une nouvelle activite
-                        Intent it = new Intent(Home.this,ListePlat.class);
+                        Intent it = new Intent(Home.this, ListePlat.class);
                         //CategorieId est la cle primaire
                         it.putExtra("CategorieId",adapter.getRef(position).getKey());
                         startActivity(it);
@@ -116,4 +112,26 @@ public class Home extends AppCompatActivity {
     }
 
 
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+        int id = item.getItemId();
+        if(id == R.id.nav_menu){}
+        else if (id == R.id.nav_cart){
+            Intent intentC = new Intent(Home.this, Cart.class);
+            startActivity(intentC);
+        }
+        else if (id == R.id.nav_orders){
+            Intent intentO = new Intent(Home.this, OrderStatus.class);
+            startActivity(intentO);
+        }
+        DrawerLayout dr = (DrawerLayout)findViewById(R.id.drawer_layout);
+        dr.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
+    /*@Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
+    }*/
 }

@@ -4,11 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.menubi.Common.Common;
 import com.example.menubi.Database.Database;
 import com.example.menubi.Model.Order;
+import com.example.menubi.Model.Request;
 import com.example.menubi.ViewHolder.CartAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -24,7 +29,7 @@ public class Cart extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
     FirebaseDatabase database;
-    DatabaseReference request;
+    DatabaseReference requests;
     TextView txtTotal;
     FButton btnPlace;
     List<Order> cart = new ArrayList<>();
@@ -37,7 +42,7 @@ public class Cart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
         database =FirebaseDatabase.getInstance();
-        request = database.getReference("Requests");
+        requests = database.getReference("Requests");
         //init
         recyclerView=(RecyclerView)findViewById(R.id.listCart);
         recyclerView.setHasFixedSize(true);
@@ -46,6 +51,24 @@ public class Cart extends AppCompatActivity {
         txtTotal = (TextView)findViewById(R.id.total);
         btnPlace = (FButton) findViewById(R.id.btnPlaceOrder);
         loadListFood();
+        btnPlace.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Request request= new Request(
+                        Common.curentUser.getRefTable(),
+                        Common.curentUser.getProfil(),
+                        txtTotal.getText().toString(),
+                        cart
+
+                );
+                requests.child(String.valueOf(System.currentTimeMillis())).setValue(request);
+                new Database(getBaseContext()).cleanCart();
+                Toast.makeText(Cart.this,"Merci pour la commande",Toast.LENGTH_SHORT).show();
+                finish();
+                /*Intent intCart = new Intent(Cart.this,ClientPay.class);
+                startActivity(intCart);*/
+            }
+        });
     }
 
     private void loadListFood() {

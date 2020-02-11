@@ -25,14 +25,14 @@ public class ListePlat extends AppCompatActivity {
     DatabaseReference listePlat;
     String categorieId="";
     FirebaseRecyclerAdapter<Plat, FoodViewHolder> adapter;
-    Database dbLocal;
+    SQLiteDataBaseHelper db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_liste_plat);
         database=FirebaseDatabase.getInstance();
-        dbLocal = new Database(this);
+        db = new SQLiteDataBaseHelper(this);
         listePlat = database.getReference("Plat");
         recyclerView = (RecyclerView) findViewById(R.id.reci_food);
         recyclerView.setHasFixedSize(true);
@@ -54,24 +54,24 @@ public class ListePlat extends AppCompatActivity {
                 foodViewHolder.food_name.setText(plat.getNomPlat());
                 Picasso.with(getBaseContext()).load(plat.getImage()).into(foodViewHolder.food_image);
                 //add favorite
-               /* if (dbLocal.isFavorite(adapter.getRef(i).getKey()))
+                if (db.isFavorit(adapter.getRef(i).getKey()))
                     foodViewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
                 foodViewHolder.fav_image.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        if (!dbLocal.isFavorite(adapter.getRef(i).getKey()))
+                        if (!db.isFavorit(adapter.getRef(i).getKey()))
                         {
-                            dbLocal.addFavorite(adapter.getRef(i).getKey());
+                            db.addFavorit(adapter.getRef(i).getKey());
                             foodViewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
-                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+"added to favorite",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+" Ajouté au favorit",Toast.LENGTH_SHORT).show();
                         }
                         else {
-                            dbLocal.removeFromFavorite( adapter.getRef(i).getKey());
+                            db.removeFromFavorit( adapter.getRef(i).getKey());
                             foodViewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
-                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+"removed From favorite",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+" removed From favorite",Toast.LENGTH_SHORT).show();
                         }
                     }
-                });*/
+                });
                 final Plat local = plat;
                 foodViewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
@@ -83,7 +83,7 @@ public class ListePlat extends AppCompatActivity {
                 });
 
             }
-          };
+        };
         recyclerView.setAdapter(adapter);
     }
 }

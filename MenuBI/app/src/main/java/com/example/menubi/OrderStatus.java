@@ -1,10 +1,10 @@
 package com.example.menubi;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.os.Bundle;
 
 import com.example.menubi.Common.Common;
 import com.example.menubi.Model.Request;
@@ -19,7 +19,7 @@ public class OrderStatus extends AppCompatActivity {
 
     FirebaseDatabase database;
     DatabaseReference request;
-    FirebaseRecyclerAdapter<Request, OrderViewHolder> adapter;
+    FirebaseRecyclerAdapter<Request,OrderViewHolder> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class OrderStatus extends AppCompatActivity {
         layoutManager= new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         loadOrder(Common.curentUser.getRefTable());
-        
+
     }
 
     private void loadOrder(String refTable) {
@@ -44,10 +44,10 @@ public class OrderStatus extends AppCompatActivity {
         ) {
             @Override
             protected void populateViewHolder(OrderViewHolder orderViewHolder, Request request, int i) {
-                        orderViewHolder.txtOrderId.setText(adapter.getRef(i).getKey());
-                        orderViewHolder.txtOrderStatus.setText(convertCodeToStatus(request.getStatus()));
-                        orderViewHolder.txtOrderPhone.setText(request.getRefTable());
-                      
+                orderViewHolder.txtOrderId.setText(adapter.getRef(i).getKey());
+                orderViewHolder.txtOrderStatus.setText(convertCodeToStatus(request.getStatus()));
+                orderViewHolder.txtOrderPhone.setText(request.getRefTable());
+
             }
         };
         recyclerView.setAdapter(adapter);
@@ -60,6 +60,6 @@ public class OrderStatus extends AppCompatActivity {
         else if (status.equals("1")){
             return "Sur mon Chemin";
         }
-        else return "Envoye";
+        else return "Envoyer";
     }
 }
