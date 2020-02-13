@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -32,6 +33,8 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
+
+import java.util.Random;
 
 public class AjoutePlat extends AppCompatActivity {
     EditText nomPlat, descriptionPlat, prix;
@@ -66,7 +69,7 @@ public class AjoutePlat extends AppCompatActivity {
         categorie = (Spinner) findViewById(R.id.categorie);
         imageplat = (ImageView) findViewById(R.id.imageplat);
         btnValide = (Button) findViewById(R.id.btnValider);
-        plat = new Plat();
+       // plat = new Plat();
 
 
 // Create an ArrayAdapter using the string array and a default spinner layout
@@ -77,16 +80,7 @@ public class AjoutePlat extends AppCompatActivity {
 // Apply the adapter to the spinner
         categorie.setAdapter(adapter);
 
-        switch (categorie.getSelectedItem().toString()) {
-            case "Entrées":
-                categ = "01";
-            case "desserts":
-                categ = "02";
-            case "Plats de resistance":
-                categ = "03";
-            case "Boisson":
-                categ = "04";
-        }
+
 
 
         refStorage = FirebaseStorage.getInstance().getReference("plats");
@@ -119,6 +113,20 @@ public class AjoutePlat extends AppCompatActivity {
         btnValide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                final ProgressDialog pd = new ProgressDialog(AjoutePlat.this);
+                pd.setMessage("Patienter svp...");
+                pd.show();
+
+                switch (categorie.getSelectedItem().toString()) {
+                    case "Entrées":
+                        categ = "01";break;
+                    case "desserts":
+                        categ = "02";break;
+                    case "Plats de resistance":
+                        categ = "03";break;
+                    case "Boisson":
+                        categ = "04";break;
+                }
 
                 nom = nomPlat.getText().toString();
                 desc = descriptionPlat.getText().toString();
@@ -143,16 +151,24 @@ public class AjoutePlat extends AppCompatActivity {
                        if (task.isSuccessful()) {
                             Uri downloadUri = task.getResult();
                             imageUrl = downloadUri.toString();
-
+                         /*
                             plat.setNomPlat(nom);
                             plat.setDescription(desc);
                             plat.setPrix(pr);
                             plat.setMenuId(categ);
                             plat.setImage(imageUrl);
-                            plat.setDiscount("10");
-                            reff.push().setValue(plat);
+                            plat.setDiscount("10");*/
 
+                           plat = new Plat(nom,desc,pr,"10",imageUrl,categ);
+                           // reff.push().setValue(plat);
+                            reff.child(""+(int)(20+ new Random().nextInt(250-10))).setValue(plat);
+                            pd.dismiss();
                             Toast.makeText(AjoutePlat.this, "Donnée inserer avec succes", Toast.LENGTH_LONG).show();
+
+                            prix.getText().clear();
+                            descriptionPlat.getText().clear();
+                            nomPlat.getText().clear();
+                            imageplat.setImageResource(0);
 
                         }
                        else {
@@ -187,7 +203,7 @@ public class AjoutePlat extends AppCompatActivity {
 
                 imageplat.setImageURI(data.getData());
                 uriImage = data.getData();
-                Toast.makeText(AjoutePlat.this,""+uriImage.toString(),Toast.LENGTH_LONG).show();
+            //    Toast.makeText(AjoutePlat.this,""+uriImage.toString(),Toast.LENGTH_LONG).show();
             /*
             final Uri ImageData = data.getData();
 
