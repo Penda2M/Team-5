@@ -33,6 +33,7 @@ public class Home extends AppCompatActivity implements  NavigationView.OnNavigat
     private AppBarConfiguration mAppBarConfiguration;
     FirebaseDatabase bd;
     DatabaseReference categorie;
+    FloatingActionButton fab, guide;
     TextView txtFullName;
     RecyclerView reciMenu;
     RecyclerView.LayoutManager layoutManager;
@@ -49,7 +50,7 @@ public class Home extends AppCompatActivity implements  NavigationView.OnNavigat
         categorie= bd.getReference("Categorie");
 
         //bouton panier pour commande global
-        FloatingActionButton fab = findViewById(R.id.fab);
+         fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -59,7 +60,7 @@ public class Home extends AppCompatActivity implements  NavigationView.OnNavigat
         });
 
         //bouton guide
-        FloatingActionButton guide = findViewById(R.id.guide);
+         guide = findViewById(R.id.guide);
         guide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -133,10 +134,10 @@ public class Home extends AppCompatActivity implements  NavigationView.OnNavigat
             Intent intentO = new Intent(Home.this, IntroActivity.class);
             startActivity(intentO);
        }
-        else*/ if (id == R.id.nav_logOut){
+        elseif (id == R.id.nav_logOut){
             Intent intentO = new Intent(Home.this, Signin.class);
             startActivity(intentO);
-        }
+        }*/
         dr.closeDrawer(GravityCompat.START);
         return true;
     }

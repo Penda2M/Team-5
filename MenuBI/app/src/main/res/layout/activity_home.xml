@@ -22,8 +22,9 @@
         android:fitsSystemWindows="true"
         android:background="@color/overlay_back"
         app:itemIconTint="@android:color/white"
+         app:headerLayout="@layout/nav_header_home"
         app:itemTextColor="@android:color/white"
-        app:headerLayout="@layout/nav_header_home"
         app:menu="@menu/activity_home_drawer" />
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
