@@ -19,10 +19,10 @@ public class IntroActivity extends AppCompatActivity {
         setContentView(R.layout.activity_intro);
 
         List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Menu du restaurant", " Cette page Contient l'ensemble des variétés que nous proposons dans notre menu ",R.drawable.food));
-        mList.add(new ScreenItem("Entrées", "Dans cette page vous avez les plats que nous proposons en entrées qu'elles soient chaudes ou froides",R.drawable.menustart));
-        mList.add(new ScreenItem("Espace de paiement", "Vous pairez facilment votre commande via les syst_mes de transfert existant",R.drawable.payment));
-        mList.add(new ScreenItem("Espace d'appréciation", "Dans cette page vous allez nous aidé à pouvoir améliorer notre ualité de service et les plats que nous proposons",R.drawable.note));
+        mList.add(new ScreenItem("Application", " Menu Bi est votre nouvelle application pour la dématérialisaattion du menu en papier. Plus besoin de lire sans savoir à quoi nous attendre ; en quelques click vous allez activité vos papilles et savoir à quoi vous attendre",R.drawable.food));
+        mList.add(new ScreenItem("Menu du restaurant", "Dans cette page vous avez les plats que nous proposons en dans notre menu qu'ils soient en entrées qu'elles soient chaudes ou froides, en plat principal comme en dessert et en collations. Des variétés exceptionnelles dans notre menu pour une satisfaction complète ",R.drawable.menu));
+        mList.add(new ScreenItem("Espace de paiement", "Vous paierez facillement votre commande depuis votre table sur cette interface oubien via les systèmes de transfert existant",R.drawable.payment));
+        mList.add(new ScreenItem("Espace d'appréciation", "Commandez, mangez à votre aise mais aussi apportez votre participation en notons notre qualité de service ou la saveur et présentation de vos plats que nous proposons",R.drawable.note));
 
         mScreenPager = findViewById(R.id.screen_viewpager);
         introViewPageAdapter = new IntroViewPageAdapter(this, mList);
