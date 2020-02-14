@@ -68,7 +68,7 @@ public class ListePlat extends AppCompatActivity {
                         else {
                             db.removeFromFavorit( adapter.getRef(i).getKey());
                             foodViewHolder.fav_image.setImageResource(R.drawable.ic_favorite_black_24dp);
-                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+" retités des favoris",Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ListePlat.this,""+plat.getNomPlat()+" retirés des favoris",Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
