@@ -109,6 +109,11 @@ Apk
 
 # Final presentation
 
+<a href="https://docs.google.com/presentation/d/1iIvJGAqHuwXzSrl3AixiNBYeMfNJHrLuNRYf090Gi20/edit?ts=5e45cd18#slide=id.g1f87997393_0_835">Présentation finale</a>
+
+ <a href="https://github.com/Penda2M/Team-5/blob/master/MenuBI/menubi.apk"> Apk Final </a> 
+ 
+ <a href="https://www.youtube.com/watch?v=6nftGf0snTc&feature=youtu.be"> Vidéo Finale</a> 
 # Poster
 
 # Tools
